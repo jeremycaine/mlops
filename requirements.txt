@@ -2,5 +2,6 @@ tensorflow==2.10.0
 pandas
 numpy
 matplotlib
-ibm_boto3
-ibm_botocore.client
+ibm-cos-sdk==2.12.0
+ibm-cos-sdk-core==2.12.0
+ibm-cos-sdk-s3transfer==2.12.0
