@@ -4,7 +4,7 @@ ENV PATH="/venv/bin:$PATH"
 COPY requirements.txt ./
 RUN python -m venv /venv
 RUN pip install --upgrade pip
-RUN pip install -r requirements.txt 
+RUN pip install --use-pep517 -r requirements.txt 
 
 # Use the official lightweight Python image.
 # https://hub.docker.com/_/python
