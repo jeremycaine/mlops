@@ -8,6 +8,9 @@ import io
 import ibm_boto3
 from ibm_botocore.client import Config, ClientError
 
+print("TensorFlow version:", tf.__version__)
+
+
 PATH = os.getenv('PATH')
 print(PATH)
 
