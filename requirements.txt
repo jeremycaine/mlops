@@ -2,3 +2,6 @@ tensorflow
 pandas
 numpy
 matplotlib
+io
+ibm_boto3
+ibm_botocore.client
